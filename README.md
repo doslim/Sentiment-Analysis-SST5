@@ -32,7 +32,9 @@ The structure of our projects is as follows.
 - report.pdf: a brief introduction of our implementation details, the improved model and evaluation results.
 
 ## Usage
-You can use the following command to run our codes in the /codes directory.
+First download the [Stanford Sentiment Treebank (SST-5)](https://nlp.stanford.edu/sentiment/) dataset and the [pretrained embeddings](https://nlp.stanford.edu/projects/glove/) into the /data directory. Then unzip them.
+
+After that, you can use the following command to run our codes in the /codes directory.
 ```
 python test.py --config=config.yaml
 ```
