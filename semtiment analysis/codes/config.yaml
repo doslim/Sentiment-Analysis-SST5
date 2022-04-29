@@ -1,0 +1,17 @@
+model_name: mymodel
+model_dir: ../weight
+
+dataset_path: ../data
+embedding_path: ../data/glove.6B.300d.txt
+
+hidden_dim: 256
+num_layers: 1
+dropout: 0.2
+pretrain: True
+
+batch_size: 128
+learning_rate: 0.008
+epochs: 30
+weight_decay: 1e-5
+lr_decay: True
+
