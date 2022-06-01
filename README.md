@@ -11,7 +11,7 @@ The required environments are as follows.
 - pytreebank-0.2.7: used to load the datasets.
   
 The structure of our projects is as follows.
-- sentiment : basic version.
+- sentiment analysis: basic version.
     - /codes: contain all codes.
         - test.py: the entrance of our project.
         - train.py: define the class to train the model.
@@ -20,7 +20,7 @@ The structure of our projects is as follows.
         - config.yaml: store the configurations for model trianing.
     - /weight: the directory to save models, training logs and results.
     - /data: the directory of the datasets and pretrained embeddings.
-- cbow\_improve: improved version.
+- improved: improved version.
     - /codes: contain all codes.
         - test\_improved.py: the entrance of the improved model.
         - train\_improved.py: define the class to train the model.
