@@ -2,7 +2,7 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=Doslim.Sentiment-Analysis-SST5)
 
-This repository contains a LSTM model implemented by PyTorch to perform sentiment classification on the [Stanford Sentiment Treebank (SST-5)](https://nlp.stanford.edu/sentiment/) dataset. We train the model with/without pretrained embeddings and conduct several experiments on different hyperparameters. Since the SST-5 dataset contains sentiment labels for each token in sentences, we develop a modified model to utilze this information.
+This repository contains an LSTM model implemented by PyTorch to perform sentiment classification on the [Stanford Sentiment Treebank (SST-5)](https://nlp.stanford.edu/sentiment/) dataset. We train the model with/without pretrained embeddings and conduct several experiments on different hyperparameters. Since the SST-5 dataset contains sentiment labels for each token in sentences, we develop a modified model to utilze this information.
 
 We use the [300-dim GloVe embeddings from 6B tokens](https://nlp.stanford.edu/projects/glove/) and provide a report to introduce the implementation details and evaluation results.
 
